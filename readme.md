@@ -1,17 +1,17 @@
-# Simple Geodata matcher
+## Simple Geodata matcher
 
-# Use
+### Use
 
 With a database with the 28'000 most popular places in Switzerland, *geodata.py* tries to find a match for each city listed in the file cities.txt.
 It outputs the coordinates of the cities, if found, for further use.
 
-## Requirements
+### Requirements
 
  * Python
  * sqlight3
  * re (regex python import)
 
-## License
+### License
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
