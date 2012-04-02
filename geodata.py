@@ -21,8 +21,8 @@ for line in lines:
     data = cursor.fetchall() 
 
     # pick first result if found
-    if len(data) == 0:
-        print name+",0,0"
-    else:
+    if len(data) >= 1:
         print data[0][0]+","+data[0][1]+","+data[0][2]
+    #else:
+        #print name+",0,0"
         
