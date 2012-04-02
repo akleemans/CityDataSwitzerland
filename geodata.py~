@@ -15,7 +15,6 @@ query = "SELECT * FROM cities WHERE name LIKE "
 
 
 for line in lines:
-    # remove any non-relevant characters
     name = re.sub("[^\wäöü. ]", "", line)   
     cursor.execute(query + "'" + name + "'")
     data = cursor.fetchall() 
